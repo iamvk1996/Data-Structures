@@ -1,10 +1,10 @@
-Structure of the linked list node is as
+//Structure of the linked list node is as
 struct node
 {
     int data;
     struct node *next;
 };
-*/
+
 // function inserts the data in front of the list
 void insertAtBegining(struct node** headRef, int newData)
 {
